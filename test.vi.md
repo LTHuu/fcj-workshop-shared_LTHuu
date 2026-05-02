@@ -1,36 +1,41 @@
----
-title: "4.3 Lambda Processor"
-date: 2024-01-01
-weight: 3
-chapter: false
-pre: "<b>4.3 </b>"
----
+## 4.3.1 Kiểm tra tài nguyên
 
-## Tổng quan
+### Mục tiêu
 
-Trong hệ thống giám sát log, việc xử lý dữ liệu theo thời gian thực đóng vai trò quan trọng nhằm phát hiện sớm các sự cố. Do đó, phần này tập trung xây dựng một pipeline xử lý log sử dụng SQS và Lambda.
+Trước khi tiến hành kiểm thử, cần đảm bảo tất cả các tài nguyên đã được tạo và cấu hình chính xác.
 
 ---
 
-## Kiến trúc tổng quát
-  SQS -> Lambda -> (DynamoDB / S3 / SNS)
+### Kiểm tra DynamoDB
+
+Kiểm tra hệ thống cho thấy đã tạo thành công 3 bảng:
+- fcaj-v2-AppClients  
+- fcaj-v2-AppLogs  
+- fcaj-v2-NotiTTL  
+
+![DynamoDB tables](../images/5-Workshop/4.3.1/dynamodb.png)
+*Hình 4.3.1-1: Các bảng DynamoDB đã được tạo thành công.*
 
 ---
 
-## Mô tả kiến trúc
+### Kiểm tra SQS
 
-Trong kiến trúc này, SQS đóng vai trò là hàng đợi trung gian tiếp nhận các message log. Khi có message mới, Lambda Processor sẽ được kích hoạt tự động để xử lý dữ liệu. Sau đó, dữ liệu được lưu trữ vào DynamoDB, S3 và đồng thời gửi thông báo thông qua SNS.
+Kiểm tra cho thấy queue `fcaj-v2-log-queue` đã được tạo và sẵn sàng sử dụng.
 
----
-
-## Vai trò của Lambda Processor
-
-- Nhận message từ SQS  
-- Xử lý dữ liệu log  
-- Lưu trữ dữ liệu và gửi thông báo  
+![SQS queue](../images/5-Workshop/4.3.1/sqs.png)
+*Hình 4.3.1-2: SQS queue được khởi tạo thành công.*
 
 ---
 
-## Kết quả
+### Kiểm tra Lambda
 
-Hệ thống xử lý log hoạt động xuyên suốt (end-to-end), đảm bảo dữ liệu được tiếp nhận, xử lý và lưu trữ đầy đủ.
+Kiểm tra Lambda function đã được deploy và đã kết nối với SQS để nhận message tự động.
+
+![Lambda trigger](../images/5-Workshop/4.3.1/lambda.png)
+*Hình 4.3.1-3: Lambda Processor đã được kết nối với SQS.*
+
+---
+
+### Kết luận
+
+Tất cả các tài nguyên DynamoDB, SQS và Lambda Processor đã được cấu hình đầy đủ và sẵn sàng cho bước kiểm thử tiếp theo.
