@@ -18,8 +18,8 @@ pre: " <b> 1.6. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                      | Start Date | Completion Date | Reference Material |
 | --- | --------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
-| 2   | - Continue implementing application registration functionality <br> - Improve backend logic               | 04/20/2026 | 04/20/2026      |                    |
-| 5   | - Research and implement Cognito for user authentication <br> - Integrate Cognito User Pool into system  | 04/23/2026 | 04/23/2026      |                    |
+| 2   | - Continue implementing application registration functionality <br> - Improve backend logic               | 04/20/2026 | 04/13/2026      |                    |
+| 5   | - Research and implement Cognito for user authentication <br> - Integrate Cognito User Pool into system  | 04/23/2026 | 04/16/2026      |                    |
 
 ### Week 6 Achievements:
 
