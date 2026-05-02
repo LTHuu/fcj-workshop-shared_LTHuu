@@ -1,3 +1,23 @@
+---
+title: "Week 7 Worklog"
+date: 2024-01-01
+weight: 1
+chapter: false
+pre: " <b> 1.7. </b> "
+---
+
+### Week 7 Objectives:
+
+* Integrate individual components into the group project  
+* Deploy and test the complete system on AWS  
+* Improve understanding of overall system architecture  
+
+### Tasks to be carried out this week:
+| Day | Task                                                                                         | Start Date | Completion Date | Reference Material |
+| --- | -------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
+| 2   | - Integrate application registration module into the group project                           | 02/20/2026 | 02/20/2026      |                    |
+| 5   | - Run demo of the group project <br> - Observe system behavior and understand overall flow   | 02/23/2026 | 02/23/2026      |                    |
+
 ### Week 7 Achievements:
 
 * Successfully integrated the application registration component into the group project.
