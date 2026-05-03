@@ -1,9 +1,9 @@
 ---
 title: "Resource Check"
-date: 2024-01-01
-weight: 3
+date: 2026-05-02
+weight: 1
 chapter: false
-pre: "<b>4.4.1 </b>"
+pre: "<b> 4.4.1 </b>"
 ---
 
 ## 4.4.1 Resource Check
@@ -12,8 +12,6 @@ pre: "<b>4.4.1 </b>"
 
 Verify the components in the log ingestion pipeline from CloudWatch to ensure that the system is correctly configured before testing.
 
----
-
 ### Verification
 
 - SQS is properly connected to the Lambda Processor  
@@ -21,10 +19,9 @@ Verify the components in the log ingestion pipeline from CloudWatch to ensure th
 - Lambda Shipper is configured to receive logs from CloudWatch Logs  
 
 ![Resource check](/images/4-Workshop/4.4--log-ingestion/4.4.1--resource-check/resource1.png)  
-![Resource check](/images/4-Workshop/4.4--log-ingestion/4.4.1--resource-check/resource2.png)  
-*Figure 4.4.1-1: Verification of connections between CloudWatch, Lambda Shipper, Lambda Processor, and SQS.*
+![Resource check](/images/4-Workshop/4.4--log-ingestion/4.4.1--resource-check/resource2.png) 
 
----
+Processor, and SQS.*
 
 ### Description
 

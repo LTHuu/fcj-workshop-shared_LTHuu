@@ -1,11 +1,14 @@
 ---
 title: "Lambda Processor"
-date: 2024-01-01
+date: 2026-05-02
 weight: 3
 chapter: false
-pre: "<b>4.3 </b>"
+pre: "<b> 4.3 </b>"
 ---
 #4.3. Lambda Processor
+
+[4.3.1 Kiểm tra tài nguyên](./4.3.1--resource-check/_index.vi.md)  
+[4.3.2 Processor Test](./4.3.2--processor-test/_index.vi.md)  
 
 ## Tổng quan
 
