@@ -8,17 +8,17 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** Tran Gia Bao
+&emsp; **Full Name:** Le Tien Huu
 
-&emsp; **Phone Number:** 0386152395 
+&emsp; **Phone Number:** 0329959972
 
-&emsp; **Email:** trangiabao16082003@gmail.com
+&emsp; **Email:** letienhuu2003@gmail.com
 
 &emsp; **University:** Sai Gon University
 
 &emsp; **Major:** Software Engineer
 
-&emsp; **Class:** AWS032026
+&emsp; **Class:** DKP1212
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
