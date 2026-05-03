@@ -3,12 +3,8 @@ title: "Tự đánh giá"
 date: 2024-01-01
 weight: 6
 chapter: false
-pre: " <b> 6. </b> "
+pre: " <b> 5. </b> "
 ---
-
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 Trong thời gian thực tập tại **Công ty TNHH Amazon Web Services Việt Nam** từ **09/03 đến 02/05**, tôi đã có cơ hội học hỏi, thực hành và áp dụng những kiến thức đã được học tại trường vào môi trường làm việc thực tế trong lĩnh vực điện toán đám mây.  
 
