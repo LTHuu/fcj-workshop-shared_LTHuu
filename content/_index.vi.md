@@ -7,17 +7,17 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Trần Gia Bảo
+&emsp; **Họ và tên:** Lê Tiến Hữu
 
-&emsp; **Số điện thoại:** 0386152395
+&emsp; **Số điện thoại:** 0329959972
 
-&emsp; **Email:** trangiabao16082003@gmail.com
+&emsp; **Email:** letienhuu2003@gmail.com
 
 &emsp; **Trường:** Đại học Sài Gòn
 
 &emsp; **Ngành:** Kỹ thuật phần mềm
 
-&emsp; **Lớp:** AWS032026
+&emsp; **Lớp:** DKP1212
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
